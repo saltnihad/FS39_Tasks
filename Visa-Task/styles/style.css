@@ -1,0 +1,96 @@
+@import url(reset.css);
+
+.purple {
+    background-color: #8E44AD;
+}
+
+.green {
+    background-color: #009432;
+}
+
+.blue {
+   background-color: #0652DD;
+}
+
+.black {
+    background-color: #161617;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.cards-holder {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   width: 60%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px 10px 10px;
+    border-radius: 7px;
+    justify-content: flex-start;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-number {
+    display: flex;
+    gap: 15px;
+}
+
+.number {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: 20px;
+    
+}
+
+.name {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: monospace;
+    padding-bottom: 10px;
+}
+
+.valid,
+.date {
+    font-family: 'Tahoma', sans-serif;
+}
+
+.valid {
+    font-size: 8px;
+}
+
+.date {
+    font-size: 13px;
+}
+
+.card-type {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.card-chip {
+    width: 40px;
+    padding-top: 18px;
+}
+
+.visa-logo {
+    width: 77px;
+}
+
+.ex-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
