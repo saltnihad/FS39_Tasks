@@ -1,0 +1,69 @@
+@import url(reset.css);
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header p {
+    width: 25%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 22%;
+
+}
+
+.writer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px gray;
+    padding-bottom: 5px;
+}
+
+.user img {
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+}
+
+.date {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 15px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.food-img {
+    cursor: pointer;
+}
+
+.food-img:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
