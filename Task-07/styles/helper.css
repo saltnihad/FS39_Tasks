@@ -1,0 +1,10 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transition {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
