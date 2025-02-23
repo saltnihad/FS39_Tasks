@@ -8,6 +8,8 @@ span {
     height: fit-content;
     right: 2%;
     top: 2%;
+    font-size: 13px;
+    padding: 8px 16px;
 }
 
 p {
