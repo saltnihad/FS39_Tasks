@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <h2>Customer's Orders</h2>
+        <div class="search-bar">
+          <input type="text" placeholder="Search Data..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="file"><i class="fa-solid fa-file-export"></i></div>
+      </div>
+      <div class="container">
+        <table>
+          <thead>
+            <tr class="info" id="general">
+              <th>Id <i class="fa-solid fa-arrow-up-long"></i></th>
+              <th>
+                Customer
+                <i class="fa-solid fa-arrow-down-long circle-arrow"></i>
+              </th>
+              <th>Location <i class="fa-solid fa-arrow-down-long"></i></th>
+              <th>Order Date <i class="fa-solid fa-arrow-down-long"></i></th>
+              <th>Status <i class="fa-solid fa-arrow-down-long"></i></th>
+              <th>Amount <i class="fa-solid fa-arrow-down-long"></i></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="info white">
+              <td>8</td>
+              <td class="customer">
+                <img src="images/profile-photo.jpg" alt="" /> Aayat Ali Khan
+              </td>
+              <td>Islamabad</td>
+              <td>30 Feb, 2023</td>
+              <td><p class="pending status">Pending</p></td>
+              <td>$149.70</td>
+            </tr>
+            <tr class="info">
+              <td>6</td>
+              <td class="customer">
+                <img src="images/profile-photo.jpg" alt="" /> Alex Gonley
+              </td>
+              <td>London</td>
+              <td>23 Apr, 2023</td>
+              <td><p class="cancelled status">Cancelled</p></td>
+              <td>$399.99</td>
+            </tr>
+            <tr class="info white">
+              <td>4</td>
+              <td class="customer">
+                <img src="images/profile-photo.jpg" alt="" /> Alson GC
+              </td>
+              <td>New Delhi</td>
+              <td>25 May, 2023</td>
+              <td><p class="delivered status">Delivered</p></td>
+              <td>$149.70</td>
+            </tr>
+            <tr class="info">
+              <td>9</td>
+              <td class="customer">
+                <img src="images/profile-photo.jpg" alt="" /> Alson GC
+              </td>
+              <td>Dhaka</td>
+              <td>22 Dec, 2023</td>
+              <td><p class="cancelled status">Cancelled</p></td>
+              <td>$249.99</td>
+            </tr>
+            <tr class="info white">
+              <td>8</td>
+              <td class="customer">
+                <img src="images/profile-photo.jpg" alt="" /> Aayat Ali Khan
+              </td>
+              <td>Islamabad</td>
+              <td>30 Feb, 2023</td>
+              <td><p class="pending status">Pending</p></td>
+              <td>$149.70</td>
+            </tr>
+            <tr class="info">
+              <td>6</td>
+              <td class="customer">
+                <img src="images/profile-photo.jpg" alt="" /> Alex Gonley
+              </td>
+              <td>London</td>
+              <td>23 Apr, 2023</td>
+              <td><p class="cancelled status">Cancelled</p></td>
+              <td>$399.99</td>
+            </tr>
+            <tr class="info white">
+              <td>4</td>
+              <td class="customer">
+                <img src="images/profile-photo.jpg" alt="" /> Alson GC
+              </td>
+              <td>New Delhi</td>
+              <td>25 May, 2023</td>
+              <td><p class="delivered status">Delivered</p></td>
+              <td>$149.70</td>
+            </tr>
+            <tr class="info">
+              <td>9</td>
+              <td class="customer">
+                <img src="images/profile-photo.jpg" alt="" /> Alson GC
+              </td>
+              <td>Dhaka</td>
+              <td>22 Dec, 2023</td>
+              <td><p class="cancelled status">Cancelled</p></td>
+              <td>$249.99</td>
+            </tr>
+            <tr class="info white">
+              <td>8</td>
+              <td class="customer">
+                <img src="images/profile-photo.jpg" alt="" /> Aayat Ali Khan
+              </td>
+              <td>Islamabad</td>
+              <td>30 Feb, 2023</td>
+              <td><p class="pending status">Pending</p></td>
+              <td>$149.70</td>
+            </tr>
+            <tr class="info">
+              <td>6</td>
+              <td class="customer">
+                <img src="images/profile-photo.jpg" alt="" /> Alex Gonley
+              </td>
+              <td>London</td>
+              <td>23 Apr, 2023</td>
+              <td><p class="cancelled status">Cancelled</p></td>
+              <td>$399.99</td>
+            </tr>
+            <tr class="info white">
+              <td>4</td>
+              <td class="customer">
+                <img src="images/profile-photo.jpg" alt="" /> Alson GC
+              </td>
+              <td>New Delhi</td>
+              <td>25 May, 2023</td>
+              <td><p class="delivered status">Delivered</p></td>
+              <td>$149.70</td>
+            </tr>
+            <tr class="info">
+              <td>9</td>
+              <td class="customer">
+                <img src="images/profile-photo.jpg" alt="" /> Alson GC
+              </td>
+              <td>Dhaka</td>
+              <td>22 Dec, 2023</td>
+              <td><p class="cancelled status">Cancelled</p></td>
+              <td>$249.99</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
