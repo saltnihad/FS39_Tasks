@@ -15,7 +15,11 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px 0;
+  padding: 50px 0;
+  background-image: url("./images/table-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 }
 
 table {
@@ -44,9 +48,9 @@ td img {
   border-radius: 50%;
 }
 
-h2{
-color: white;
-font-size: 20px;
+h2 {
+  color: white;
+  font-size: 20px;
 }
 
 .search-bar {
@@ -54,7 +58,6 @@ font-size: 20px;
   align-items: center;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
-  padding: 10px 20px;
   width: 50%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -85,6 +88,8 @@ font-size: 20px;
 }
 
 .container {
+  max-height: 70vh;
+  overflow-y: scroll;
   width: 80%;
   backdrop-filter: blur(15px);
   background: rgba(255, 255, 255, 0.1);
@@ -92,7 +97,10 @@ font-size: 20px;
   border-bottom-left-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   padding: 15px 30px;
-  overflow: hidden;
+}
+
+.container::-webkit-scrollbar {
+  width: 0;
 }
 
 .customer {
@@ -123,15 +131,13 @@ font-size: 20px;
   color: rgb(56, 0, 0);
 }
 
-
 .info:nth-child(2n) {
   background: rgba(255, 255, 255, 0.3);
 }
 
-.white:nth-child(2n-1) {
-    background: rgba(255, 255, 255, 0.8)
+.info:nth-child(2n-1) {
+  /* background: rgba(255, 255, 255, 0.8); */
 }
-
 
 .file {
   display: flex;
