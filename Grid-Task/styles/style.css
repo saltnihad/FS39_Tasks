@@ -3,23 +3,23 @@
 
 main {
   height: 100vh;
-  background-image: url("../images/Fuji.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.764), rgba(0, 0, 0, 0.726)),
+    url("../images/Fuji.webp");
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-h1, p {
-    color: white;
+h1,
+p {
+  color: white;
 }
-
 
 h2 {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
-
 
 .container {
   flex-direction: column;
@@ -60,4 +60,3 @@ h2 {
 .weather-blocks div:last-child {
   grid-column: span 4;
 }
-
