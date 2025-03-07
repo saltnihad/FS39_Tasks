@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 260px;
+    height: 150px;
+    vertical-align: middle;
+    object-fit: cover;
+    overflow: hidden;
+}

@@ -1,0 +1,112 @@
+@import url(./reset.css);
+
+body {
+    background: rgb(0, 183, 255);
+    
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    position: relative;
+}
+
+.card {
+    border: 1px white solid;
+    width: 260px;
+    height: 150px;
+}
+
+.card-1 {
+    animation: move-1 2s ease forwards;
+    
+}
+
+.card-2 {
+    animation: move-2 2s ease forwards;
+    
+}
+
+.card-3 {
+    animation: move-3 2s ease forwards;
+    
+}
+
+@keyframes move-1 {
+  0% {
+    top: 0;
+    left: 0;
+  }
+
+  25% {
+    top: 0;
+    left: 130px;
+  }
+
+  50% {
+    top: 0;
+    left: 260px;
+  }
+
+  75% {
+    top: 0;
+    left: 390px;
+  }
+
+  100% {
+    top: 0;
+    left: 520px;
+  }
+}
+
+@keyframes move-2 {
+    0% {
+        top: 0;
+        left: 260px;
+    }
+    
+    50% {
+        top: 0;
+        left: 130px;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+
+@keyframes move-3 {
+    0% {
+        top: 0;
+        right: 0;
+    }
+
+    50% {
+top: 0;
+right: 130px;
+    }
+
+    100% {
+        top: 0;
+        right: 260px;
+    }
+    
+}
