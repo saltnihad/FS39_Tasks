@@ -1,0 +1,62 @@
+@import url(./reset.css);
+@import url(./helpers.css);
+
+main {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.764), rgba(0, 0, 0, 0.726)),
+    url("../images/Fuji.webp");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+p {
+  color: white;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container {
+  flex-direction: column;
+  backdrop-filter: blur(1px);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.weather-blocks {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(4, auto);
+  gap: 5px;
+  width: 100%;
+  padding: 10px;
+}
+
+.weather-blocks div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 40px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.weather-blocks div:first-child {
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.weather-blocks div:nth-child(9) {
+  grid-area: 3 / 2 / 4 / 4;
+}
+
+.weather-blocks div:last-child {
+  grid-column: span 4;
+}
