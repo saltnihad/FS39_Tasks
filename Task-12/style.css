@@ -1,14 +1,14 @@
 @import url(./reset.css);
 
 body {
-    background: rgb(0, 183, 255);
+    background: #1a9ac9;
     
 }
 
 h1 {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 56px;
     margin-bottom: 10px;
 }
 
@@ -26,12 +26,15 @@ h1 {
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(3, auto);
     position: relative;
+    border: 1px white solid;
 }
 
 .card {
     border: 1px white solid;
-    width: 260px;
-    height: 150px;
+}
+
+.card:hover {
+    scale: 1.003;
 }
 
 .card-1 {
@@ -49,64 +52,220 @@ h1 {
     
 }
 
+.card-4 {
+    animation: move-4 2s ease forwards;
+}
+
+.card-5 {
+    animation: move-5 2s ease forwards;
+}
+
+.card-6 {
+    
+    animation: move-6 2s ease forwards;
+}
+
+.card-7 {
+    animation: move-7 2s ease forwards;
+}
+
+.card-8 {
+    animation: move-8 2s ease forwards;
+}
+
+.card-9 {
+    animation: move-9 2s ease forwards;
+}
+
 @keyframes move-1 {
-  0% {
-    top: 0;
-    left: 0;
-  }
-
-  25% {
-    top: 0;
-    left: 130px;
-  }
-
-  50% {
-    top: 0;
-    left: 260px;
-  }
-
-  75% {
-    top: 0;
-    left: 390px;
-  }
-
-  100% {
-    top: 0;
-    left: 520px;
-  }
+    0% {
+        transform: translate(0, 0);
+       }
+     
+       25% {
+         transform: translate(50%, 0);
+       }
+     
+       50% {
+        transform: translate(100%, 0);
+       }
+     
+       75% {
+         transform: translate(100%, 50%);
+       }
+     
+       100% {
+         transform: translate(100%, 100%);
+       }
 }
 
 @keyframes move-2 {
     0% {
-        top: 0;
-        left: 260px;
+     transform: translate(0, 0);
     }
-    
+  
+    25% {
+      transform: translate(-25%, 0);
+    }
+  
     50% {
-        top: 0;
-        left: 130px;
+     transform: translate(-50%, 0);
     }
-
+  
+    75% {
+      transform: translate(-75%, 0);
+    }
+  
     100% {
-        top: 0;
-        left: 0;
+      transform: translate(-100%, 0);
     }
-}
+  }
 
-@keyframes move-3 {
+  @keyframes move-3 {
     0% {
-        top: 0;
-        right: 0;
+     transform: translate(0, 0);
     }
-
+  
+    25% {
+      transform: translate(0, 25%);
+    }
+  
     50% {
-top: 0;
-right: 130px;
+     transform: translate(0, 50%);
     }
-
+  
+    75% {
+      transform: translate(0, 75%);
+    }
+  
     100% {
-        top: 0;
-        right: 260px;
+      transform: translate(0, 100%);
     }
-    
-}
+  }
+  @keyframes move-4 {
+    0% {
+     transform: translate(0, 0);
+    }
+  
+    25% {
+      transform: translate(0, 25%);
+    }
+  
+    50% {
+     transform: translate(0, 50%);
+    }
+  
+    75% {
+      transform: translate(0, 75%);
+    }
+  
+    100% {
+      transform: translate(0, 100%);
+    }
+  }
+  @keyframes move-5 {
+    0% {
+     transform: translate(0, 0);
+    }
+  
+    25% {
+      transform: translate(50%, 0);
+    }
+  
+    50% {
+     transform: translate(100%, 0);
+    }
+  
+    75% {
+      transform: translate(100%, 50%);
+    }
+  
+    100% {
+      transform: translate(100%, 100%);
+    }
+  }
+  @keyframes move-6 {
+    0% {
+     transform: translate(0, 0);
+    }
+  
+    25% {
+      transform: translate(0, -25%);
+    }
+  
+    50% {
+     transform: translate(0, -50%);
+    }
+  
+    75% {
+      transform: translate(0, -75%);
+    }
+  
+    100% {
+      transform: translate(0, -100%);
+    }
+  }
+  @keyframes move-7 {
+    0% {
+     transform: translate(0, 0);
+    }
+  
+    25% {
+      transform: translate(0, -25%);
+    }
+  
+    50% {
+     transform: translate(0, -50%);
+    }
+  
+    75% {
+      transform: translate(0, -75%);
+    }
+  
+    100% {
+      transform: translate(0, -100%);
+    }
+  }
+  @keyframes move-8 {
+    0% {
+     transform: translate(0, 0);
+    }
+  
+    25% {
+      transform: translate(0, -50%);
+    }
+  
+    50% {
+     transform: translate(0, -100%);
+    }
+  
+    75% {
+      transform: translate(0, -150%);
+    }
+  
+    100% {
+      transform: translate(0, -200%);
+    }
+  }
+  @keyframes move-9 {
+    0% {
+     transform: translate(0, 0);
+    }
+  
+    25% {
+      transform: translate(-25%, 0);
+    }
+  
+    50% {
+     transform: translate(-50%, 0);
+    }
+  
+    75% {
+      transform: translate(-75%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+
