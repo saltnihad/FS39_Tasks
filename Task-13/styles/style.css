@@ -17,7 +17,7 @@ img {
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.764), rgba(0, 0, 0, 0.726)), url("../images/background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url("../images/background.jpg");
   background-size: cover;
 }
 
@@ -33,18 +33,26 @@ main {
 }
 .container h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 65px;
+  font-size: 62px;
   font-weight: 400;
   color: white;
-  line-height: 75px;
+  line-height: 70px;
   width: 80%;
   margin-bottom: 50px;
 }
 .container a {
   color: white;
   background-color: #615CFD;
-  padding: 9px 18px;
+  padding: 10px 30px;
   border-radius: 50px;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.container a:hover {
+  background-color: transparent;
+  color: #615CFD;
+  border: 1px solid #615CFD;
+  transition: 0.5s ease;
 }/*# sourceMappingURL=style.css.map */
