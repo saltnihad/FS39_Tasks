@@ -134,9 +134,14 @@ h1 {
 }
 
 .services {
-  background: linear-gradient(rgba(172, 255, 36, 0.2), rgba(172, 255, 36, 0.2)),
+  background: linear-gradient(rgba(17, 27, 1, 0.575), rgba(23, 36, 2, 0.692)), 
   url(../images/service-bg.png);
   padding: 120px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-left: 1px solid #262626;
+  border-right: 1px solid #262626;
 }
 
 .title {
@@ -149,4 +154,110 @@ h1 {
   font-size: 18px;
   font-weight: 400;
   color: #e6e6e6;
+  text-align: center;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
+.card-wrapper {
+  align-items: stretch;
+}
+
+.card {
+  gap: 20px;
+  padding: 50px;
+  border-left: 1px solid #262626;
+  border-top: 1px solid #262626;
+  border-bottom: 1px solid #262626;
+  flex-basis: 33.33%;
+}
+
+.card:last-child {
+  border-right: 1px solid #262626;
+}
+
+h3 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.service-text {
+  color: rgba(230, 230, 230, 1);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.service-button {
+  background-color: rgba(38, 38, 38, 1);
+  padding: 15px 25px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 18px;
+border-radius: 8px;
+margin-top: auto;
+
+}
+
+.reason {
+  background: linear-gradient(rgba(17, 27, 1, 0.575), rgba(23, 36, 2, 0.692)), 
+  url(../images/reason-bg.png);
+  padding: 120px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-left: 1px solid #262626;
+  border-right: 1px solid #262626;
+  border-bottom: 1px solid #262626;
+}
+
+.reason-wrapper {
+  flex-wrap: wrap;
+}
+
+.reason-card {
+  gap: 30px;
+  flex-basis: 50%;
+  padding: 70px;
+  border-bottom: 1px solid #262626;
+  border-right: 1px solid #262626;
+  
+}
+
+.reason-card:nth-child(2n-1) {
+  border-left: 1px solid #262626;
+}
+
+.small-icon {
+  width: 65px;
+  height: 65px;
+}
+
+h4 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.reason-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.clients {
+  background: linear-gradient(rgba(17, 27, 1, 0.575), rgba(23, 36, 2, 0.692)), 
+  url(../images/bg-client.png);
+  padding: 120px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-left: 1px solid #262626;
+  border-right: 1px solid #262626;
+  border-bottom: 1px solid #262626;
 }
