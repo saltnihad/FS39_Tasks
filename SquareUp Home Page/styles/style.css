@@ -134,8 +134,8 @@ h1 {
 }
 
 .services {
-  background: linear-gradient(rgba(17, 27, 1, 0.575), rgba(23, 36, 2, 0.692)), 
-  url(../images/service-bg.png);
+  background: linear-gradient(rgba(17, 27, 1, 0.575), rgba(23, 36, 2, 0.692)),
+    url(../images/service-bg.png);
   padding: 120px 0;
   background-position: center;
   background-size: cover;
@@ -198,14 +198,13 @@ h3 {
   color: rgba(255, 255, 255, 1);
   font-weight: 500;
   font-size: 18px;
-border-radius: 8px;
-margin-top: auto;
-
+  border-radius: 8px;
+  margin-top: auto;
 }
 
 .reason {
-  background: linear-gradient(rgba(17, 27, 1, 0.575), rgba(23, 36, 2, 0.692)), 
-  url(../images/reason-bg.png);
+  background: linear-gradient(rgba(17, 27, 1, 0.575), rgba(23, 36, 2, 0.692)),
+    url(../images/reason-bg.png);
   padding: 120px 0;
   background-position: center;
   background-size: cover;
@@ -251,8 +250,8 @@ h4 {
 }
 
 .clients {
-  background: linear-gradient(rgba(17, 27, 1, 0.575), rgba(23, 36, 2, 0.692)), 
-  url(../images/bg-client.png);
+  background: linear-gradient(rgba(17, 27, 1, 0.575), rgba(23, 36, 2, 0.692)),
+    url(../images/bg-client.png);
   padding: 120px 0;
   background-position: center;
   background-size: cover;
