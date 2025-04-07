@@ -2,6 +2,10 @@
   width: 80%;
 }
 
+.small-container {
+  width: 65%;
+}
+
 .center {
   display: flex;
   justify-content: center;
@@ -11,6 +15,10 @@
 .column {
     display: flex;
     flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 .pt15 {
@@ -27,4 +35,24 @@
 
 .w70 {
   width: 70%;
+}
+
+.g15 {
+  gap: 15px;
+}
+
+.g50 {
+  gap: 50px;
+}
+
+.g40 {
+  gap: 40px;
+}
+
+.fb50 {
+  flex-basis: 50%;
+}
+
+.p80 {
+  padding: 80px;
 }
