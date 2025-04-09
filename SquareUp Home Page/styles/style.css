@@ -424,6 +424,7 @@ h4 {
   background-color: rgba(36, 36, 36, 0.5);
   border-radius: 8px;
   padding: 24px 40px;
+  border: 1px solid rgba(38, 38, 38, 1);
 }
 
 .form-text {
@@ -444,9 +445,11 @@ h4 {
 }
 
 .form-small-text {
-  color: rgba(253, 255, 250, 1);
+  color: rgba(230, 230, 230, 1);
   font-size: 18px;
   font-weight: 400;
+  width: 50%;
+  display: inline-block;
 }
 
 input[type="checkbox"] {
@@ -454,9 +457,103 @@ input[type="checkbox"] {
 }
 
 .checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  flex-basis: calc(50% - 10px);
+}
+
+.slider-container {
   width: 100%;
 }
 
-.checkbox-group label {
-  width: 50%;
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgba(158, 255, 0, 1);
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(158, 255, 0, 1);
+  cursor: pointer;
+  border: 5px solid rgba(76, 76, 77, 1);
+}
+
+.slider-values {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+footer {
+  border-top: 1px solid #262626;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #262626;
+}
+
+.social-media {
+  width: 50px;
+  height: 50px;
+}
+
+.social-links {
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(38, 38, 38, 1);
+}
+
+.social-text {
+  color: rgba(230, 230, 230, 1);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whereabouts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+}
+
+.copyright {
+  color: rgba(152, 152, 154, 1);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.whereabouts-text {
+  color: rgba(230, 230, 230, 1);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.whereabouts-icon {
+  color: rgba(158, 255, 0, 1);
+  font-size: 18px;
 }

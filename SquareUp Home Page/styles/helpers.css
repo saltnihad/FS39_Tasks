@@ -53,6 +53,22 @@
   flex-basis: 50%;
 }
 
-.p80 {
-  padding: 80px;
+.p70 {
+  padding: 70px;
+}
+
+.pt50 {
+  padding-top: 50px;
+}
+
+.pb50 {
+  padding-bottom: 50px;
+}
+
+.g10 {
+  gap: 10px;
+}
+
+.bb {
+  border-bottom: 1px solid #262626;
 }
