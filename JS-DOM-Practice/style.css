@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.circle-1,
+.circle-2,
+.circle-3,
+.circle-4 {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.circle-1 {
+  background-color: gray;
+}
+
+.circle-2 {
+    background-color: red;
+}
+
+.circle-3 {
+    background-color: blue;
+}
+
+.circle-4 {
+    background-color: yellow;
+}
+
+h1, 
+p {
+    font-size: 35px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}
