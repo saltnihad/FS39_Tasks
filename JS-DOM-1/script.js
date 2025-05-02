@@ -12,7 +12,7 @@
 
 // list.appendChild(newItem);
 
-// Task-3 
+// Task-3
 
 // document.querySelector('h1').textContent = 'GeForce 20 Series';
 // document.querySelectorAll('.primary').forEach(item => {
@@ -24,3 +24,13 @@
 // document.querySelectorAll('ul li.primary').forEach(item => {
 //     console.log(item.textContent);
 //   });
+
+// Task-5
+
+// document.querySelectorAll("ul li").forEach((item) => {
+//   item.classList.add("item");
+
+//   if (!item.classList.contains("primary")) {
+//     item.classList.add("secondary");
+//   }
+// });
