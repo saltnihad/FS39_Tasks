@@ -16,7 +16,7 @@ const data = [
     { name: "TRON", ticker: "TRX", value: "0.020881", change: "5.21%" },
   ];
 
-  const tbody = document.querySelector(".coinsTable tbody");
+  const tbody = document.querySelector(".coinsTable");
 
     data.forEach(coin => {
       const row = document.createElement("tr");
