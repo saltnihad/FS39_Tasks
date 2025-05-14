@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: url(./ishan-seefromthesky-qE1Y8GQKhEk-unsplash.jpg);
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+.todo-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    gap: 10px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: chocolate;
+    color: white;
+    font-weight: bold;
+}
